@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: linear-gradient(135deg, #4B0082, #800080, #9932CC, #8A2BE2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: whitesmoke;
+    margin: 100px auto;
+    width:400px;
+    min-height: 67.7vh;
+    border-radius: 10px;
+
+}
+.letters{
+    color: black;
+
+    
+}
+.img{
+    width: 30px;
+    height: 30px;
+}
+#input{
+    padding: 10px;
+    width: 80%;
+    border: none;
+    margin: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-top: 2px;
+    outline: none;
+    display: inline;
+    color: black;
+    font-size: 18px;
+
+}
+#btn{
+    width: 50px;
+    height: 45px;
+    border-radius: 35px;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 30px;
+}
+ul{
+    list-style: none;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+}
+li{
+    margin: 10px 30px 0;  
+    color: black;
+    width: 90%;
+
+}
+.and{
+    background-color: orange;
+    border-radius: 35px;
+    color: white;
+    padding: 10px;
+    width: 50px;
+    height: 40px;
+    margin-left: 100px;
+    border: none;
+    font-size: 15px;
+    
+}
+.letters{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+hr{
+    margin-top: 10px;
+    
+}
+.flex{
+    display: flex;
+
+
+}
+.add{
+    float: left;
+text-align: left;
+}
+.rem{
+
+    text-align: end;
+}
