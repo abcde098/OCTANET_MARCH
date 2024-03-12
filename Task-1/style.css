@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header-1{
+    display: flex;
+    background:linear-gradient(to right , rgb(228, 164, 45), rgb(224, 44, 224) ) ;
+    justify-content: space-between;
+    color: white;
+}
+.header{
+    height: 30px;
+    width: auto;
+    padding-left: 100px;
+    
+}
+.caller{
+    display: flex;
+    column-gap: 1rem;
+}
+.header-icon{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #fff;
+    height: 30px;
+    cursor: pointer;
+}
+.header-icon-2{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+
+}
+.mob{
+    padding-top: 3px;
+    padding-right: 10px;
+}
+.email{
+    padding-top: 3px;
+}
+.header-btn{
+    margin: 3px;
+    margin-right: 100px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 0 10px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.nav{
+    display: flex;
+    position: relative;
+    
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.nav-img{
+    width: 50px;
+    height: 3.5rem;
+    cursor: pointer;
+}
+.nav-container{
+    display: flex;
+    column-gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1rem;
+    justify-content: space-around;
+}
+
+.nav-textbox{
+      padding: 10px;
+      padding-right: 30px; 
+      width: 100px; 
+      border: 1px solid #ccc; 
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      margin-top: 10px;
+}
+.nav-search{
+      position: absolute;
+      border-radius: 30px;
+      background-color: #000;
+      color: #eee;
+      border: 2px solid #000;
+      padding: 5px;
+      top: 55%;
+      right: 25px; 
+      transform: translateY(-50%);
+      cursor: pointer;
+}
+.list-items{
+    margin-top: 1rem;
+   
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+
+}
+.nav-header{
+    color: #000;
+    font-weight: 800;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    background-attachment: fixed;
+    border-width: 3px; 
+    border-bottom: solid;
+    border-image:linear-gradient(to right , rgb(228, 164, 45), rgb(224, 44, 224) ); 
+    border-image-slice: 1;
+    transform-origin: left center;
+    transform: rotate(90deg);
+    transition: 0.1s;
+
+}
+.nav-button{
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #000;    
+}
+.nav-button:hover{
+
+    color: #fff;
+    background:linear-gradient(to right , rgb(228, 164, 45), rgb(224, 44, 224) ); 
+}
+.img-1{
+    width: 100%;
+    height: 91vh;
+    background-position:center ;
+}
+
+.lanch{
+    background:linear-gradient(to right , rgb(239, 179, 67), rgb(241, 36, 241) );
+    width: auto;
+    height: 40vh;
+    padding-left: 10rem;
+    padding-top: 3rem;
+    margin-top: 0;
+    overflow: hidden;
+
+}
+.lanch-container{
+    position: absolute;
+    margin-left:3rem ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    width: auto;
+    overflow: hidden;
+
+
+}
+.lanch-items{
+    overflow: hidden;
+}
+.lanch-logo{
+    border: 3px solid white;
+    padding: 19px;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.lanch-logo,.lanch-text,.lanch-header{
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.about{
+    display: grid;
+    grid-template-columns:auto 1fr;
+    height: 70vh;
+    width: auto;
+    margin-top: 10%;
+    margin-right: 10rem;
+    margin-left: 200px;
+}
+
+.about-header{
+    font-size: 700;
+}
+.about-header-1{
+    margin-left: 2rem;
+    cursor: pointer;
+
+}
+.about-text-1{
+    font-size: 600;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    margin-left: 2rem;
+    margin: 2rem;
+    font-size: bolder;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-text-2{
+   
+    margin-left: 2rem;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.about-button{
+    position: relative;
+    display: block;
+    background:linear-gradient(to right , rgb(228, 164, 45), rgb(224, 44, 224) );
+    color: #fff;
+    font-weight:600 ;
+    border-radius: 10px;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    margin-left: 2rem;
+    
+    
+}
+.about-button:hover{
+    background-color: black;
+    box-shadow: 0 10px 36px rgba(0,0,0,0.15);
+    color:#fff;
+}
+.about-header-1:hover{
+    border-width: 3px; 
+    border-bottom: solid;
+    border-image:linear-gradient(to right , rgb(228, 164, 45), rgb(224, 44, 224) ); 
+    border-image-slice: 1;
+    width: 20%;
+    transition: 0.1s;
+    
+}
+.down_image{
+    padding-top: 5rem;
+
+    width: 50vh;
+    height: 60vh;
+
+}
+.ourcontainer{
+    position: relative;
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+    background-color: lightgoldenrodyellow;
+}
+.ourservices{
+    position: relative;
+    display: flex;
+    padding-left: 100px;
+    width: auto;
+    height: 60vh;
+    column-gap: 4rem;
+    padding-top: 100px;
+}
+.ourservices-image{
+    position: relative;
+}
+.format{
+    position: absolute;
+    display: flex;
+    width: max-content;
+    height: 50px;
+    top: 150px;
+    left: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+}
+.image-1{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0 10px 36px rgba(0,0,0,0.15);
+    cursor: pointer;
+
+}
+.our-header-1{
+    font-weight: 800;
+    padding-left: 70px;
+}
+
+
+.our-services-user{
+   
+    background:linear-gradient(to right , rgb(228, 164, 45), rgb(224, 44, 224) ); 
+    padding: 15px;
+    border-radius: 40px;
+}
+.our-services-text{
+    padding-top: 10px;
+    padding-left: 3px;
+    font-weight: bold;
+}
